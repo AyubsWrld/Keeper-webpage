@@ -10,9 +10,11 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='app-container'>
         <Header />
-        <PageOne />
+        <div className='page-containers'>
+          <PageOne />
+        </div>
       </div>
     </>
   )

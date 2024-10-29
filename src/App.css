@@ -12,10 +12,26 @@
 }
 
 #root {
-  max-width: 1280px;
+  padding : 2rem ; 
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
   font-family: "Manrope", sans-serif;
+  --primary:  #486284 ;
+  --red    :  #FB2184 ;
+  --black  :  #2F2E3C;
+  --blue   :  #77D6E6;
+  --purple :  #922E8E;
+  --gradient :  linear-gradient(to right ,var(--red) , var(--purple)  , var(--blue) );
+  --gradient-two :  linear-gradient(to left ,var(--blue), var(--purple) , var(--black) );
+}
+.app-container {
+  display : flex ; 
+  flex-direction : column  ; 
+  justify-content : center ; 
+  align-items : center ; 
+  gap : 32px ; 
 }
 
+.page-containers {
+  margin-top  : 200px ; 
+}
