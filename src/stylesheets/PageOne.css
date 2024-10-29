@@ -1,0 +1,15 @@
+.Header {
+  color : white ; 
+  font-size : 128px ; 
+  line-height : 80% ; 
+  font-weight : semibold; 
+  letter-spacing: -6px;
+
+}
+
+.pageOneContainer {
+  display : flex ; 
+  flex-direction : column ; 
+  gap : 32px ; 
+}
+

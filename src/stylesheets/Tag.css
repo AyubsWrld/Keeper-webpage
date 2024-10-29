@@ -1,0 +1,19 @@
+.tagText {
+  background: -webkit-linear-gradient(#93FCA3, #8BF7E5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight : 500;  
+  font-size : 18px ; 
+}
+
+.tagContainer {
+  display : flex ; 
+  flex-direction : row ; 
+  align-items : center ; 
+  justify-content: center ; 
+  gap : 4px ; 
+}
+
+.star {
+  height : 16px ;
+}
