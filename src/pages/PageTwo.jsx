@@ -7,7 +7,6 @@ export default function PageTwo(){
   <>
     <div className='page-two-container'>
       <div className='page-two-text-container'>
-          Page two 
       </div>
     </div>
   </>
