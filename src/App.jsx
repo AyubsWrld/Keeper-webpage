@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg' ;
 import viteLogo from '/vite.svg' ;
 import Header from '../src/components/Header.jsx'  ; 
 import PageOne from './pages/PageOne' ; 
+import PageTwo from './pages/PageTwo' ; 
 import Tag from './components/Tag.jsx' ; 
 import './App.css'
 
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <div className='page-containers'>
           <PageOne />
+          <PageTwo />
         </div>
       </div>
     </>

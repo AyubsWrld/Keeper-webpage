@@ -1,17 +1,5 @@
-.manrope-<uniquifier> {
-  font-family: "Manrope", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-.manrope-semibold {
-  font-family: "Manrope", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
-
 .button-style{
+  font-family : "Manrope" ; 
   max-width : 200px ; 
   padding : 16px 32px ; 
   background-color : white ;
@@ -19,7 +7,7 @@
   border-style : none ; 
   font-size : 18px ; 
   border-radius : 12px; 
-  font-weight : bold ; 
+  font-weight : 700 ; 
   cursor : pointer ; 
 }
 
